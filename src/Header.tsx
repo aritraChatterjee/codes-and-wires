@@ -67,7 +67,7 @@ const Header = (props: any) => {
                             <Tab
                                 className={classes.tab}
                                 component={RouteLink}
-                                to="/"
+                                to="/codes-and-wires"
                                 label="Home"
                             />
                             <Tab
