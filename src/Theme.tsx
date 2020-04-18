@@ -17,6 +17,14 @@ const theme = createMuiTheme({
                 padding: '25px 0',
             },
         },
+        MuiLink: {
+            underlineNone: {
+                color: '#2c3e50',
+                '&:hover': {
+                    color: '#0AAB8B',
+                },
+            },
+        },
     },
 });
 

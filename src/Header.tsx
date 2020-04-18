@@ -6,10 +6,16 @@ import Container from '@material-ui/core/Container';
 import React, { useState } from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import Link from '@material-ui/core/Link';
+import { Link as RouteLink } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     brand: {
         fontSize: '1.9em',
+        color: '#000',
+        '&:hover': {
+            color: theme.palette.secondary.main,
+        },
     },
     tabContainer: {
         marginLeft: 'auto',
@@ -20,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
         minWidth: 10,
         marginLeft: '15px',
         letterSpacing: '1px',
+    },
+    headerMargin: {
+        marginTop: 150,
     },
 }));
 
@@ -37,24 +46,48 @@ const Header = (props: any) => {
     };
 
     return (
-        <AppBar elevation={0} position="fixed" color="default">
-            <Container fixed>
-                <Toolbar>
-                    <Typography className={classes.brand}>
-                        codes & wires
-                    </Typography>
-                    <Tabs
-                        className={classes.tabContainer}
-                        value={value}
-                        onChange={handleChange}
-                    >
-                        <Tab className={classes.tab} label="Home" />
-                        <Tab className={classes.tab} label="About" />
-                        <Tab className={classes.tab} label="Contact" />
-                    </Tabs>
-                </Toolbar>
-            </Container>
-        </AppBar>
+        <>
+            <AppBar elevation={0} position="fixed" color="default">
+                <Container fixed>
+                    <Toolbar>
+                        <Link
+                            href="#"
+                            onClick={preventDefault}
+                            underline="none"
+                        >
+                            <Typography className={classes.brand}>
+                                codes & wires
+                            </Typography>
+                        </Link>
+                        <Tabs
+                            className={classes.tabContainer}
+                            value={value}
+                            onChange={handleChange}
+                        >
+                            <Tab
+                                className={classes.tab}
+                                component={RouteLink}
+                                to="/"
+                                label="Home"
+                            />
+                            <Tab
+                                className={classes.tab}
+                                component={RouteLink}
+                                to="/about"
+                                label="About"
+                            />
+                            <Tab
+                                className={classes.tab}
+                                component={RouteLink}
+                                to="/contact"
+                                label="Contact"
+                            />
+                        </Tabs>
+                    </Toolbar>
+                </Container>
+            </AppBar>
+            <div className={classes.headerMargin} />
+        </>
     );
 };
 
