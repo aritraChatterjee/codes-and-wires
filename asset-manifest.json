@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/codes-and-wires/static/js/main.2e6c7b70.chunk.js",
+    "main.js.map": "/codes-and-wires/static/js/main.2e6c7b70.chunk.js.map",
+    "runtime-main.js": "/codes-and-wires/static/js/runtime-main.1279ba40.js",
+    "runtime-main.js.map": "/codes-and-wires/static/js/runtime-main.1279ba40.js.map",
+    "static/js/2.51e5955f.chunk.js": "/codes-and-wires/static/js/2.51e5955f.chunk.js",
+    "static/js/2.51e5955f.chunk.js.map": "/codes-and-wires/static/js/2.51e5955f.chunk.js.map",
+    "index.html": "/codes-and-wires/index.html",
+    "precache-manifest.ab9b9910d5ebdfa6d05b2e471f404583.js": "/codes-and-wires/precache-manifest.ab9b9910d5ebdfa6d05b2e471f404583.js",
+    "service-worker.js": "/codes-and-wires/service-worker.js",
+    "static/js/2.51e5955f.chunk.js.LICENSE.txt": "/codes-and-wires/static/js/2.51e5955f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1279ba40.js",
+    "static/js/2.51e5955f.chunk.js",
+    "static/js/main.2e6c7b70.chunk.js"
+  ]
+}
