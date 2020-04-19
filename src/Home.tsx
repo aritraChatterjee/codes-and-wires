@@ -25,7 +25,7 @@ const Home = (props: any) => {
                     align="center"
                     className={classes.skills}
                 >
-                    Web - Enterprise Java - Cloud Native - IoT
+                    Web - Enterprise Java - Cloud Native
                 </Typography>
             </ContainerWithGutter>
         </Container>
