@@ -12,6 +12,8 @@ import { faReact } from '@fortawesome/free-brands-svg-icons/faReact';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 
+import Tooltip from '@material-ui/core/Tooltip';
+
 const useStyles = makeStyles((theme) => ({
     footer: {
         top: 'auto',
@@ -91,16 +93,18 @@ const Footer = () => {
                     gutterBottom={true}
                 >
                     This website is built with{' '}
-                    <Link
-                        href="https://reactjs.org/"
-                        target="_blank"
-                        underline="none"
-                    >
-                        <FontAwesomeIcon
-                            className={classes.reactIcon}
-                            icon={faReact}
-                        />
-                    </Link>
+                    <Tooltip title="React">
+                        <Link
+                            href="https://reactjs.org/"
+                            target="_blank"
+                            underline="none"
+                        >
+                            <FontAwesomeIcon
+                                className={classes.reactIcon}
+                                icon={faReact}
+                            />
+                        </Link>
+                    </Tooltip>
                 </Typography>
             </Container>
         </AppBar>
