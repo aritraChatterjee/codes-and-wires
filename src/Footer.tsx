@@ -18,28 +18,28 @@ const useStyles = makeStyles((theme) => ({
     footer: {
         top: 'auto',
         bottom: 0,
-        margin: '20px auto',
+        margin: '20px auto'
     },
     socialMediaBar: {
         display: 'block',
         margin: '0 auto',
         textAlign: 'center',
         color: theme.palette.primary.main,
-        paddingBottom: 20,
+        paddingBottom: 20
     },
     socialMediaIcon: {
         marginLeft: 15,
         marginRight: 15,
-        fontSize: 28,
+        fontSize: 28
     },
     buildText: {
         fontSize: 12,
-        fontWeight: 700,
+        fontWeight: 700
     },
     reactIcon: {
         fontSize: 30,
-        color: '#0AAB8B',
-    },
+        color: '#0AAB8B'
+    }
 }));
 
 const Footer = () => {
@@ -49,8 +49,7 @@ const Footer = () => {
             position="fixed"
             color="default"
             elevation={0}
-            className={classes.footer}
-        >
+            className={classes.footer}>
             <Container fixed>
                 <div className={classes.socialMediaBar}>
                     <Link href="#" underline="none">
@@ -83,22 +82,19 @@ const Footer = () => {
                 <Typography
                     variant="subtitle1"
                     align="center"
-                    gutterBottom={true}
-                >
+                    gutterBottom={true}>
                     codes & wires
                 </Typography>
                 <Typography
                     align="center"
                     className={classes.buildText}
-                    gutterBottom={true}
-                >
+                    gutterBottom={true}>
                     This website is built with{' '}
                     <Tooltip title="React">
                         <Link
                             href="https://reactjs.org/"
                             target="_blank"
-                            underline="none"
-                        >
+                            underline="none">
                             <FontAwesomeIcon
                                 className={classes.reactIcon}
                                 icon={faReact}

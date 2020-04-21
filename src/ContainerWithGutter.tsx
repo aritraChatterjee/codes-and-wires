@@ -3,8 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     gutteredContainer: {
-        ...theme.mixins.gutters(),
-    },
+        ...theme.mixins.gutters()
+    }
 }));
 
 const ContainerWithGutter = (props: any) => {

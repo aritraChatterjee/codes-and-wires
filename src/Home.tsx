@@ -5,8 +5,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     skills: {
-        marginTop: 20,
-    },
+        marginTop: 20
+    }
 }));
 
 const Home = (props: any) => {
@@ -23,8 +23,7 @@ const Home = (props: any) => {
                     variant="h5"
                     color="secondary"
                     align="center"
-                    className={classes.skills}
-                >
+                    className={classes.skills}>
                     Enterprise Java - Web - Cloud Native
                 </Typography>
             </ContainerWithGutter>

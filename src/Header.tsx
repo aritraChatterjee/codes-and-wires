@@ -14,22 +14,22 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '1.9em',
         color: '#000',
         '&:hover': {
-            color: theme.palette.secondary.main,
-        },
+            color: theme.palette.secondary.main
+        }
     },
     tabContainer: {
-        marginLeft: 'auto',
+        marginLeft: 'auto'
     },
     tab: {
         fontSize: '0.95em',
         textTransform: 'none',
         minWidth: 10,
         marginLeft: '15px',
-        letterSpacing: '1px',
+        letterSpacing: '1px'
     },
     headerMargin: {
-        marginTop: 150,
-    },
+        marginTop: 150
+    }
 }));
 
 const Header = (props: any) => {
@@ -53,8 +53,7 @@ const Header = (props: any) => {
                         <Link
                             href="#"
                             onClick={preventDefault}
-                            underline="none"
-                        >
+                            underline="none">
                             <Typography className={classes.brand}>
                                 codes & wires
                             </Typography>
@@ -62,8 +61,7 @@ const Header = (props: any) => {
                         <Tabs
                             className={classes.tabContainer}
                             value={value}
-                            onChange={handleChange}
-                        >
+                            onChange={handleChange}>
                             <Tab
                                 className={classes.tab}
                                 component={RouteLink}

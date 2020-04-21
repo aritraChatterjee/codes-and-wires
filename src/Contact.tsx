@@ -12,16 +12,16 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '250px',
         border: 0,
         borderTop: 'solid 5px',
-        textAlign: 'center',
+        textAlign: 'center'
     },
     uppercase: {
         textTransform: 'uppercase',
         fontWeight: 700,
-        fontSize: '2.4em',
+        fontSize: '2.4em'
     },
     contactText: {
-        fontSize: 26,
-    },
+        fontSize: 26
+    }
 }));
 
 const Contact = (props: any) => {
@@ -33,16 +33,14 @@ const Contact = (props: any) => {
                 <Typography
                     color="primary"
                     align="center"
-                    className={classes.uppercase}
-                >
+                    className={classes.uppercase}>
                     Contact Us
                 </Typography>
                 <hr className={classes.starPrimary} />
                 <Typography
                     className={classes.contactText}
                     color="secondary"
-                    align="center"
-                >
+                    align="center">
                     let's give shape to your dream idea together :)
                 </Typography>
                 <Typography variant="h6" align="center">
