@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/codesandwires/static/js/main.57669dc6.chunk.js",
-    "main.js.map": "/codesandwires/static/js/main.57669dc6.chunk.js.map",
+    "main.js": "/codesandwires/static/js/main.5671fc2b.chunk.js",
+    "main.js.map": "/codesandwires/static/js/main.5671fc2b.chunk.js.map",
     "runtime-main.js": "/codesandwires/static/js/runtime-main.da599446.js",
     "runtime-main.js.map": "/codesandwires/static/js/runtime-main.da599446.js.map",
     "static/js/2.2b9018bb.chunk.js": "/codesandwires/static/js/2.2b9018bb.chunk.js",
     "static/js/2.2b9018bb.chunk.js.map": "/codesandwires/static/js/2.2b9018bb.chunk.js.map",
     "index.html": "/codesandwires/index.html",
-    "precache-manifest.ccaa608e1b883de727e4cc8c69aa7575.js": "/codesandwires/precache-manifest.ccaa608e1b883de727e4cc8c69aa7575.js",
+    "precache-manifest.357b9ec7bf61b960f130c184758b661a.js": "/codesandwires/precache-manifest.357b9ec7bf61b960f130c184758b661a.js",
     "service-worker.js": "/codesandwires/service-worker.js",
     "static/js/2.2b9018bb.chunk.js.LICENSE.txt": "/codesandwires/static/js/2.2b9018bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.da599446.js",
     "static/js/2.2b9018bb.chunk.js",
-    "static/js/main.57669dc6.chunk.js"
+    "static/js/main.5671fc2b.chunk.js"
   ]
 }
