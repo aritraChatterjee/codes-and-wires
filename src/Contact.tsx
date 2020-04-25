@@ -7,9 +7,9 @@ import { Typography, Link } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
     starPrimary: {
         borderColor: theme.palette.primary.main,
-        margin: '25px auto 30px',
+        margin: '10px auto 30px',
         padding: 0,
-        maxWidth: '250px',
+        maxWidth: '200px',
         border: 0,
         borderTop: 'solid 5px',
         textAlign: 'center'
@@ -34,7 +34,7 @@ const Contact = (props: any) => {
                     color="primary"
                     align="center"
                     className={classes.uppercase}>
-                    Contact Us
+                    Contact
                 </Typography>
                 <hr className={classes.starPrimary} />
                 <Typography
@@ -45,7 +45,7 @@ const Contact = (props: any) => {
                 </Typography>
                 <Typography variant="h6" align="center">
                     mail:{' '}
-                    <Link href="#" underline="none">
+                    <Link href="#" color="primary" underline="hover">
                         pr.codesandwires@gmail.com
                     </Link>
                 </Typography>
