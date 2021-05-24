@@ -52,27 +52,39 @@ const Footer = () => {
             className={classes.footer}>
             <Container fixed>
                 <div className={classes.socialMediaBar}>
-                    <Link href="#" underline="none">
+                    <Link
+                        href="https://github.com/aritraChatterjee"
+                        target="_blank"
+                        underline="none">
                         <FontAwesomeIcon
                             className={classes.socialMediaIcon}
                             icon={faGithub}
                         />
                     </Link>
-                    <Link href="#" underline="none">
+                    <Link
+                        href="https://twitter.com/aritrachatterji"
+                        target="_blank"
+                        underline="none">
                         <FontAwesomeIcon
                             className={classes.socialMediaIcon}
                             icon={faTwitter}
                         />
                     </Link>
 
-                    <Link href="#" underline="none">
+                    <Link
+                        href="https://www.linkedin.com/in/aritra-chatterjee-8513b61a/"
+                        target="_blank"
+                        underline="none">
                         <FontAwesomeIcon
                             className={classes.socialMediaIcon}
                             icon={faLinkedinIn}
                         />
                     </Link>
 
-                    <Link href="#" underline="none">
+                    <Link
+                        href="https://medium.com/@aritra.chatterji"
+                        target="_blank"
+                        underline="none">
                         <FontAwesomeIcon
                             className={classes.socialMediaIcon}
                             icon={faMediumM}

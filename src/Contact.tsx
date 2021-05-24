@@ -41,12 +41,12 @@ const Contact = (props: any) => {
                     className={classes.contactText}
                     color="secondary"
                     align="center">
-                    let's give shape to your dream idea together :)
+                    You can reach me via
                 </Typography>
                 <Typography variant="h6" align="center">
                     mail:{' '}
                     <Link href="#" color="primary" underline="hover">
-                        pr.codesandwires@gmail.com
+                        aritra.cnw@gmail.com
                     </Link>
                 </Typography>
             </ContainerWithGutter>
