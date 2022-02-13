@@ -62,7 +62,7 @@ const Footer = () => {
                         />
                     </Link>
                     <Link
-                        href="https://twitter.com/codesandwires_"
+                        href="https://twitter.com/codesandwires"
                         target="_blank"
                         underline="none">
                         <FontAwesomeIcon
