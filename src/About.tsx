@@ -27,6 +27,14 @@ const useStyles = makeStyles((theme) => ({
 
 const About = (props: any) => {
     const classes = useStyles();
+
+    const getExperience = (): number => {
+        const currentDate = new Date();
+        const startDate = new Date(2010, 6, 1);
+        const diff = new Date(currentDate.getTime() - startDate.getTime());
+        return diff.getUTCFullYear() - 1970;
+    };
+
     return (
         <Container fixed>
             <ContainerWithGutter>
@@ -54,11 +62,11 @@ const About = (props: any) => {
                     </span>{' '}
                     with{' '}
                     <span className={classes.standOutText}>
-                        <b>over 10 years of experience</b>
+                        <b>over {getExperience()} years of experience</b>
                     </span>{' '}
                     and based out of the Netherlands.
                     <br />
-                    <br /> I studied{' '}
+                    <br /> I did{' '}
                     <span className={classes.standOutText}>
                         <b>B.Sc in Physics</b>
                     </span>{' '}
